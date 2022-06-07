@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.xl346.battleship.TextPlayerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-31T08:13:00" hostname="xiaodong-VirtualBox" time="0.031">
+  <properties/>
+  <testcase name="test_ifHasLost()" classname="edu.duke.xl346.battleship.TextPlayerTest" time="0.008"/>
+  <testcase name="test_doOnePlacement_normal()" classname="edu.duke.xl346.battleship.TextPlayerTest" time="0.014"/>
+  <testcase name="test_do_one_placements_BadPlacementString()" classname="edu.duke.xl346.battleship.TextPlayerTest" time="0.001"/>
+  <testcase name="test_read_placement()" classname="edu.duke.xl346.battleship.TextPlayerTest" time="0.001"/>
+  <testcase name="test_do_one_placements_BadPlacementLocation()" classname="edu.duke.xl346.battleship.TextPlayerTest" time="0.001"/>
+  <testcase name="test_read_coordinate()" classname="edu.duke.xl346.battleship.TextPlayerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

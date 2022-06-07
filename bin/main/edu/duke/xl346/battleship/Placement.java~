@@ -1,0 +1,71 @@
+package edu.duke.xl346.battleship;
+
+public class Placement {
+  private final Coordinate where;
+  private final char orientation;
+
+  public Placement(Coordinate where, char orientation) {
+    StringBuffer sc = new StringBuffer("");
+    sc.append(orientation);
+    String ors = sc.toString();
+    ors = ors.toUpperCase();
+    this.where = where;
+    this.orientation = ors.charAt(0);
+  }
+
+  public Placement(String rco) {
+    rco = rco.toUpperCase();
+    int len = rco.length();
+    if (len != 3) {
+      throw new IllegalArgumentException("the length of rco should be three");
+    }
+    String rc = rco.substring(0, 2);
+    where = new Coordinate(rc);
+    char o = rco.charAt(2);
+    if (o != 'V' && o != 'H') {
+      throw new IllegalArgumentException("o should be V or H");
+    }
+    orientation = o;
+  }
+
+  public Coordinate getWhere() {
+    return where;
+  }
+
+  public char getOrientation() {
+    return orientation;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (o.getClass().equals(getClass())) {
+      Placement p = (Placement) o;
+      return this.where.equals(p.where) && this.orientation == p.orientation;
+    }
+    return false;
+  }
+
+  @Override
+  public String toString() {
+    StringBuffer sc = new StringBuffer(where.toString());
+    sc.append(orientation);
+    return sc.toString();
+  }
+
+  @Override
+  public int hashCode() {
+    return toString().hashCode();
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

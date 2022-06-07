@@ -1,0 +1,25 @@
+package edu.duke.xl346.battleship;
+
+public class SimpleShipDisplayInfo<T> implements ShipDisplayInfo<T> {
+
+
+  @Override
+	public T getInfo(Coordinate where, boolean hit) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

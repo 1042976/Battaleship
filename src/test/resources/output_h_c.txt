@@ -1,0 +1,790 @@
+Whether Player A is a human player(H or h) or to be played by the computer(C or c): 
+Player A is a human player.
+Whether Player B is a human player(H or h) or to be played by the computer(C or c): 
+Player B is to be played by the computer.
+  0|1|2|3|4|5|6|7|8|9
+A  | | | | | | | | |  A
+B  | | | | | | | | |  B
+C  | | | | | | | | |  C
+D  | | | | | | | | |  D
+E  | | | | | | | | |  E
+F  | | | | | | | | |  F
+G  | | | | | | | | |  G
+H  | | | | | | | | |  H
+I  | | | | | | | | |  I
+J  | | | | | | | | |  J
+K  | | | | | | | | |  K
+L  | | | | | | | | |  L
+M  | | | | | | | | |  M
+N  | | | | | | | | |  N
+O  | | | | | | | | |  O
+P  | | | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+--------------------------------------------------------------------------------
+Player A: you are going to place the following ships 
+For each ship, type the coordinate of the upper left
+side of the ship. Submarine and Destroyer are followed
+by either H (for horizontal) or V (for vertical) while
+Battleship and Carrier are followed by U, R, D or L(for up, right, down or left). 
+You have
+
+2 "Submarines"
+3 "Destroyers"
+3 "Battleships"
+2 "Carriers"
+--------------------------------------------------------------------------------
+
+Player A where do you want to place a Submarine?
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B  | | | | | | | | |  B
+C  | | | | | | | | |  C
+D  | | | | | | | | |  D
+E  | | | | | | | | |  E
+F  | | | | | | | | |  F
+G  | | | | | | | | |  G
+H  | | | | | | | | |  H
+I  | | | | | | | | |  I
+J  | | | | | | | | |  J
+K  | | | | | | | | |  K
+L  | | | | | | | | |  L
+M  | | | | | | | | |  M
+N  | | | | | | | | |  N
+O  | | | | | | | | |  O
+P  | | | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player A where do you want to place a Submarine?
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B s|s| | | | | | | |  B
+C  | | | | | | | | |  C
+D  | | | | | | | | |  D
+E  | | | | | | | | |  E
+F  | | | | | | | | |  F
+G  | | | | | | | | |  G
+H  | | | | | | | | |  H
+I  | | | | | | | | |  I
+J  | | | | | | | | |  J
+K  | | | | | | | | |  K
+L  | | | | | | | | |  L
+M  | | | | | | | | |  M
+N  | | | | | | | | |  N
+O  | | | | | | | | |  O
+P  | | | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player A where do you want to place a Destroyer?
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B s|s| | | | | | | |  B
+C d|d|d| | | | | | |  C
+D  | | | | | | | | |  D
+E  | | | | | | | | |  E
+F  | | | | | | | | |  F
+G  | | | | | | | | |  G
+H  | | | | | | | | |  H
+I  | | | | | | | | |  I
+J  | | | | | | | | |  J
+K  | | | | | | | | |  K
+L  | | | | | | | | |  L
+M  | | | | | | | | |  M
+N  | | | | | | | | |  N
+O  | | | | | | | | |  O
+P  | | | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player A where do you want to place a Destroyer?
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B s|s| | | | | | | |  B
+C d|d|d| | | | | | |  C
+D d|d|d| | | | | | |  D
+E  | | | | | | | | |  E
+F  | | | | | | | | |  F
+G  | | | | | | | | |  G
+H  | | | | | | | | |  H
+I  | | | | | | | | |  I
+J  | | | | | | | | |  J
+K  | | | | | | | | |  K
+L  | | | | | | | | |  L
+M  | | | | | | | | |  M
+N  | | | | | | | | |  N
+O  | | | | | | | | |  O
+P  | | | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player A where do you want to place a Destroyer?
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B s|s| | | | | | | |  B
+C d|d|d| | | | | | |  C
+D d|d|d| | | | | | |  D
+E d|d|d| | | | | | |  E
+F  | | | | | | | | |  F
+G  | | | | | | | | |  G
+H  | | | | | | | | |  H
+I  | | | | | | | | |  I
+J  | | | | | | | | |  J
+K  | | | | | | | | |  K
+L  | | | | | | | | |  L
+M  | | | | | | | | |  M
+N  | | | | | | | | |  N
+O  | | | | | | | | |  O
+P  | | | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player A where do you want to place a Battleship?
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B s|s| | | | | | | |  B
+C d|d|d| | | | | | |  C
+D d|d|d| | | | | | |  D
+E d|d|d| | | | | | |  E
+F  |b| | | | | | | |  F
+G b|b|b| | | | | | |  G
+H  | | | | | | | | |  H
+I  | | | | | | | | |  I
+J  | | | | | | | | |  J
+K  | | | | | | | | |  K
+L  | | | | | | | | |  L
+M  | | | | | | | | |  M
+N  | | | | | | | | |  N
+O  | | | | | | | | |  O
+P  | | | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player A where do you want to place a Battleship?
+That placement is invalid: the ship overlaps another ship.
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B s|s| | | | | | | |  B
+C d|d|d| | | | | | |  C
+D d|d|d| | | | | | |  D
+E d|d|d| | | | | | |  E
+F  |b| | | | | | | |  F
+G b|b|b| | | | | | |  G
+H  | | | | | | | | |  H
+I  | | | | | | | | |  I
+J  | | | | | | | | |  J
+K  | | | | | | | | |  K
+L  | | | | | | | | |  L
+M  | | | | | | | | |  M
+N  | | | | | | | | |  N
+O  | | | | | | | | |  O
+P  | | | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player A where do you want to place a Battleship?
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B s|s| | | | | | | |  B
+C d|d|d| | | | | | |  C
+D d|d|d| | | | | | |  D
+E d|d|d| | | | | | |  E
+F  |b| | | | | | | |  F
+G b|b|b| | | | | | |  G
+H  |b| | | | | | | |  H
+I b|b|b| | | | | | |  I
+J  | | | | | | | | |  J
+K  | | | | | | | | |  K
+L  | | | | | | | | |  L
+M  | | | | | | | | |  M
+N  | | | | | | | | |  N
+O  | | | | | | | | |  O
+P  | | | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player A where do you want to place a Battleship?
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B s|s| | | | | | | |  B
+C d|d|d| | | | | | |  C
+D d|d|d| | | | | | |  D
+E d|d|d| | | | | | |  E
+F  |b| | | | | | | |  F
+G b|b|b| | | | | | |  G
+H  |b| | | | | | | |  H
+I b|b|b| | | | | | |  I
+J  |b| | | | | | | |  J
+K b|b|b| | | | | | |  K
+L  | | | | | | | | |  L
+M  | | | | | | | | |  M
+N  | | | | | | | | |  N
+O  | | | | | | | | |  O
+P  | | | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player A where do you want to place a Carrier?
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B s|s| | | | | | | |  B
+C d|d|d| | | | | | |  C
+D d|d|d| | | | | | |  D
+E d|d|d| | | | | | |  E
+F  |b| | | | | | | |  F
+G b|b|b| | | | | | |  G
+H  |b| | | | | | | |  H
+I b|b|b| | | | | | |  I
+J  |b| | | | | | | |  J
+K b|b|b| | | | | | |  K
+L c| | | | | | | | |  L
+M c| | | | | | | | |  M
+N c|c| | | | | | | |  N
+O  |c| | | | | | | |  O
+P  |c| | | | | | | |  P
+Q  | | | | | | | | |  Q
+R  | | | | | | | | |  R
+S  | | | | | | | | |  S
+T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player A where do you want to place a Carrier?
+  0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A
+B s|s| | | | | | | |  B
+C d|d|d| | | | | | |  C
+D d|d|d| | | | | | |  D
+E d|d|d| | | | | | |  E
+F  |b| | | | | | | |  F
+G b|b|b| | | | | | |  G
+H  |b| | | | | | | |  H
+I b|b|b| | | | | | |  I
+J  |b| | | | | | | |  J
+K b|b|b| | | | | | |  K
+L c| | | | | | | | |  L
+M c| | | | | | | | |  M
+N c|c| | | | | | | |  N
+O  |c| | | | | | | |  O
+P c|c| | | | | | | |  P
+Q c| | | | | | | | |  Q
+R c|c| | | | | | | |  R
+S  |c| | | | | | | |  S
+T  |c| | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9
+
+Player B is placing a Submarine
+Player B is placing a Submarine
+Player B is placing a Destroyer
+Player B is placing a Destroyer
+Player B is placing a Destroyer
+Player B is placing a Battleship
+Player B is placing a Battleship
+Player B is placing a Battleship
+Player B is placing a Carrier
+Player B is placing a Carrier
+     Your ocean                                     Player B's ocean
+  0|1|2|3|4|5|6|7|8|9                              0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A                          A  | | | | | | | | |  A
+B s|s| | | | | | | |  B                          B  | | | | | | | | |  B
+C d|d|d| | | | | | |  C                          C  | | | | | | | | |  C
+D d|d|d| | | | | | |  D                          D  | | | | | | | | |  D
+E d|d|d| | | | | | |  E                          E  | | | | | | | | |  E
+F  |b| | | | | | | |  F                          F  | | | | | | | | |  F
+G b|b|b| | | | | | |  G                          G  | | | | | | | | |  G
+H  |b| | | | | | | |  H                          H  | | | | | | | | |  H
+I b|b|b| | | | | | |  I                          I  | | | | | | | | |  I
+J  |b| | | | | | | |  J                          J  | | | | | | | | |  J
+K b|b|b| | | | | | |  K                          K  | | | | | | | | |  K
+L c| | | | | | | | |  L                          L  | | | | | | | | |  L
+M c| | | | | | | | |  M                          M  | | | | | | | | |  M
+N c|c| | | | | | | |  N                          N  | | | | | | | | |  N
+O  |c| | | | | | | |  O                          O  | | | | | | | | |  O
+P c|c| | | | | | | |  P                          P  | | | | | | | | |  P
+Q c| | | | | | | | |  Q                          Q  | | | | | | | | |  Q
+R c|c| | | | | | | |  R                          R  | | | | | | | | |  R
+S  |c| | | | | | | |  S                          S  | | | | | | | | |  S
+T  |c| | | | | | | |  T                          T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9                              0|1|2|3|4|5|6|7|8|9
+
+Possible actions for Player A
+
+
+ F Fire at a square
+
+ M Move a ship to another square (3 remaininig)
+
+ S Sonar scan (3 remaining)
+
+Please select one valid action above:
+Please enter a valid coordinate to fire at:
+Please enter a valid coordinate to fire at:
+You missed!
+     Your ocean                                     Player B's ocean
+  0|1|2|3|4|5|6|7|8|9                              0|1|2|3|4|5|6|7|8|9
+A s|s| | | | | | | |  A                          A X| | | | | | | | |  A
+B s|s| | | | | | | |  B                          B  | | | | | | | | |  B
+C d|d|d| | | | | | |  C                          C  | | | | | | | | |  C
+D d|d|d| | | | | | |  D                          D  | | | | | | | | |  D
+E d|d|d| | | | | | |  E                          E  | | | | | | | | |  E
+F  |b| | | | | | | |  F                          F  | | | | | | | | |  F
+G b|b|b| | | | | | |  G                          G  | | | | | | | | |  G
+H  |b| | | | | | | |  H                          H  | | | | | | | | |  H
+I b|b|b| | | | | | |  I                          I  | | | | | | | | |  I
+J  |b| | | | | | | |  J                          J  | | | | | | | | |  J
+K b|b|b| | | | | | |  K                          K  | | | | | | | | |  K
+L c| | | | | | | | |  L                          L  | | | | | | | | |  L
+M c| | | | | | | | |  M                          M  | | | | | | | | |  M
+N c|c| | | | | | | |  N                          N  | | | | | | | | |  N
+O  |c| | | | | | | |  O                          O  | | | | | | | | |  O
+P c|c| | | | | | | |  P                          P  | | | | | | | | |  P
+Q c| | | | | | | | |  Q                          Q  | | | | | | | | |  Q
+R c|c| | | | | | | |  R                          R  | | | | | | | | |  R
+S  |c| | | | | | | |  S                          S  | | | | | | | | |  S
+T  |c| | | | | | | |  T                          T  | | | | | | | | |  T
+  0|1|2|3|4|5|6|7|8|9                              0|1|2|3|4|5|6|7|8|9
+
+Player A would you like to let computer play for you in this game?(yes/no)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A used a special action
+Player B used a special action
+Player A used a special action
+Player B used a special action
+Player A used a special action
+Player B used a special action
+Player A hit your submarine at (19, 9)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your submarine at (18, 9)
+Player B used a special action
+targetCor is (18, 9)
+Player A missed!
+Player B used a special action
+targetCor is (18, 0)
+Player A hit your carrier at (19, 1)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (18, 1)
+Player B missed!
+Player A missed!
+Player B used a special action
+targetCor is (9, 0)
+placementProblem != null
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (17, 6)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (17, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (17, 1)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (16, 6)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (16, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (15, 7)
+Player B missed!
+Player A hit your carrier at (15, 6)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (15, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (15, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (14, 7)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (14, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (19, 1)
+Player A hit your destroyer at (14, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (13, 7)
+Player B missed!
+Player A hit your destroyer at (13, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (13, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (18, 1)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (12, 2)
+Player B missed!
+Player A missed!
+Player B hit your carrier at (17, 0)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (17, 1)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (16, 0)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (15, 1)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (15, 0)
+Player A missed!
+Player B missed!
+Player A used a special action
+targetCor is (15, 0)
+placementProblem != null
+placementProblem != null
+Player B missed!
+Player A missed!
+Player B hit your carrier at (14, 1)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A used a special action
+targetCor is (7, 4)
+Player B missed!
+Player A used a special action
+targetCor is (5, 7)
+Player B hit your carrier at (13, 7)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (9, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (13, 6)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (13, 1)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (12, 6)
+Player A hit your battleship at (8, 2)
+Player B hit your carrier at (13, 0)
+Player A hit your battleship at (8, 3)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your submarine at (7, 9)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (12, 0)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your carrier at (11, 6)
+Player A hit your submarine at (6, 9)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (7, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your submarine at (6, 5)
+Player B hit your carrier at (11, 0)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (10, 0)
+Player A hit your battleship at (5, 4)
+Player B missed!
+Player A missed!
+Player B hit your battleship at (10, 2)
+Player A hit your submarine at (5, 5)
+Player B hit your battleship at (10, 1)
+Player A missed!
+Player B missed!
+Player A hit your battleship at (5, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (5, 3)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (9, 1)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (4, 3)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (8, 2)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (8, 0)
+Player A missed!
+Player B hit your battleship at (8, 1)
+Player A hit your battleship at (3, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (2, 5)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (7, 1)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (2, 3)
+Player B missed!
+Player A hit your battleship at (2, 4)
+Player B hit your battleship at (6, 2)
+Player A hit your destroyer at (2, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (6, 1)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (6, 0)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (1, 2)
+Player B missed!
+Player A missed!
+Player B hit your battleship at (5, 1)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (0, 2)
+Player A win!

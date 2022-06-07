@@ -1,0 +1,29 @@
+package edu.duke.xl346.battleship;
+
+public class NoCollisionRuleChecker<T> extends InBoundsRuleChecker<T> {
+
+	@Override
+	protected boolean checkMyRule(Ship<T> theShip, Board<T> theBoard) {
+		// TODO Auto-generated method stub
+    for (Coordinate c : theShip.getCoordinates()) {
+      if (theBoard.whatIsAt(c) != null)
+        return false;
+    }
+		return true;
+	}
+  
+  public NoCollisionRuleChecker(InBoundsRuleChecker<T> next){
+    super(next);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

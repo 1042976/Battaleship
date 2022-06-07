@@ -1,0 +1,93 @@
+package edu.duke.xl346.battleship;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.io.Reader;
+
+public class TextPlayer {
+  final Board<Character> theBoard;
+  final BoardTextView view;
+  final BufferedReader inputReader;
+  final PrintStream out;
+  final AbstractShipFactory<Character> shipFactory;
+  final String name;
+  
+  /**
+   * Contructs the textplayer, given the Board to play, the input , the output and the name of player.
+   * 
+   * @param theBoard    The Board to play.
+   * @param inputSource The input from players.
+   * @param out         The View of the Board after operation.
+   * @parem name        The name of player  
+   */
+  public TextPlayer(String name, Board<Character> theBoard, BufferedReader inputReader, PrintStream out, AbstractShipFactory<Character> shipFactory){
+    this.name = name;
+    this.theBoard = theBoard;
+    this.view = new BoardTextView(theBoard);
+    this.inputReader = inputReader;
+    this.out = out;
+    this.shipFactory = shipFactory;
+  }
+
+    /**
+   * Read a placemant entered by the palyer. Serve as the helper function of
+   * doOnePlacement().
+   * 
+   * @param prompt Messsage sent to players, requiring players to give a
+   *               placement.
+   * @return new Placement(s) The placement from players.
+   */
+  public Placement readPlacement(String prompt) throws IOException {
+    out.println(prompt);
+    String s = inputReader.readLine();
+    return new Placement(s);
+  }
+
+  /**
+   * Read placement from players and Update the board.  
+   */
+  public void doOnePlacement() throws IOException {
+    Placement p1 = readPlacement("Player " + name + " where do you want to place a Destroyer?");
+    RectangleShip<Character> s1 = new RectangleShip<Character>(p1.getWhere(), 's', '*');
+    theBoard.tryAddShip(s1);
+    out.println((new BoardTextView(theBoard)).displayMyOwnBoard());
+  }
+
+  /**
+   *This method displays the starting(empty) board, 
+   *  prints the instructions message  
+   *  calls doOnePlacement to place one ship.
+   */
+  public void doPlacementPhase() throws IOException {
+    out.println((new BoardTextView(theBoard)).displayMyOwnBoard());
+    String message = "--------------------------------------------------------------------------------\n"+
+                     "Player A: you are going to place the following ships (which are all\n"+
+                     "rectangular). For each ship, type the coordinate of the upper left\n"+
+                     "side of the ship, followed by either H (for horizontal) or V (for\n"+
+                     "vertical).  For example M4H would place a ship horizontally starting\n"+
+                     "at M4 and going to the right.  You have\n"+
+                     "\n"+
+                     "2 \"Submarines\" ships that are 1x2\n"+
+                     "3 \"Destroyers\" that are 1x3\n"+
+                     "3 \"Battleships\" that are 1x4\n"+
+                     "2 \"Carriers\" that are 1x6\n"+
+                     "--------------------------------------------------------------------------------\n";
+    out.println(message);
+    doOnePlacement();
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

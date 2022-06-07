@@ -1,0 +1,11 @@
+package edu.duke.xl346.battleship;
+
+public class Coordinate {
+  private final int row;
+  private final int column;
+
+  public int getRow() {
+    return row;
+  }
+  
+}

@@ -1,0 +1,49 @@
+package edu.duke.xl346.battleship;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+public class NoCollisionRuleCheckerTest {
+  @Test
+  public void test_checkMyRule() {
+    V1ShipFactory f = new V1ShipFactory();
+    Placement v1_2 = new Placement(new Coordinate(1, 2), 'V');
+    Placement v0_2 = new Placement(new Coordinate(0, 2), 'V');
+    Placement v0_2H = new Placement(new Coordinate(0, 2), 'H');
+    Ship<Character> subm = f.makeSubmarine(v1_2);
+    Ship<Character> subm_to_test = f.makeSubmarine(v0_2);
+    Ship<Character> subm_to_test2 = f.makeSubmarine(v0_2H);
+    PlacementRuleChecker<Character> rule = new NoCollisionRuleChecker<Character>(null);
+    Board<Character> b1 = new BattleShipBoard<Character>(10, 20, new NoCollisionRuleChecker<Character>(null));
+    b1.tryAddShip(subm);
+    assertEquals(false, rule.checkPlacement(subm_to_test, b1));
+    assertEquals(true, rule.checkPlacement(subm_to_test2, b1));  
+  }
+
+  @Test
+  public void test_combine_checkers() {
+    V1ShipFactory f = new V1ShipFactory();
+    Placement v1_2 = new Placement(new Coordinate(1, 2), 'V');
+    Placement v0_2H = new Placement(new Coordinate(0, 2), 'H');
+    Ship<Character> subm = f.makeSubmarine(v1_2);
+    Ship<Character> subm_to_test2 = f.makeSubmarine(v0_2H);
+    NoCollisionRuleChecker<Character> rule = new NoCollisionRuleChecker<Character>(
+        new InBoundsRuleChecker<Character>(null));
+    Board<Character> b1 = new BattleShipBoard<Character>(10, 20, rule);
+    b1.tryAddShip(subm);
+    assertEquals(true)
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+

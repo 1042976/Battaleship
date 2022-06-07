@@ -1,0 +1,477 @@
+Whether Player A is a human player(H or h) or to be played by the computer(C or c): 
+Player A is to be played by the computer.
+Whether Player B is a human player(H or h) or to be played by the computer(C or c): 
+Player B is to be played by the computer.
+Player A is placing a Submarine
+Player A is placing a Submarine
+Player A is placing a Destroyer
+Player A is placing a Destroyer
+Player A is placing a Destroyer
+Player A is placing a Battleship
+Player A is placing a Battleship
+Player A is placing a Battleship
+Player A is placing a Carrier
+Player A is placing a Carrier
+Player B is placing a Submarine
+Player B is placing a Submarine
+Player B is placing a Destroyer
+Player B is placing a Destroyer
+Player B is placing a Destroyer
+Player B is placing a Battleship
+Player B is placing a Battleship
+Player B is placing a Battleship
+Player B is placing a Carrier
+Player B is placing a Carrier
+Player A missed!
+Player B used a special action
+Player A missed!
+Player B missed!
+Player A used a special action
+Player B missed!
+Player A missed!
+Player B missed!
+Player A used a special action
+Player B used a special action
+Player A used a special action
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B used a special action
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (18, 6)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (18, 5)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (18, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (18, 6)
+Player B missed!
+Player A hit your carrier at (18, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (18, 5)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (17, 8)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (17, 7)
+Player B missed!
+Player A hit your carrier at (17, 6)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B used a special action
+targetCor is (17, 4)
+placementProblem != null
+Player A hit your carrier at (17, 1)
+Player B missed!
+Player A hit your carrier at (17, 3)
+Player B used a special action
+targetCor is (17, 0)
+placementProblem != null
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (16, 1)
+Player B missed!
+Player A missed!
+Player B used a special action
+targetCor is (2, 1)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (15, 3)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (15, 1)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (15, 0)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (14, 6)
+Player B missed!
+Player A hit your destroyer at (14, 8)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (14, 4)
+Player B missed!
+Player A hit your destroyer at (14, 7)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (14, 2)
+Player B missed!
+Player A hit your battleship at (14, 3)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (14, 0)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (13, 5)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (13, 0)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (12, 6)
+Player B missed!
+Player A hit your battleship at (12, 5)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (11, 5)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your submarine at (10, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (18, 0)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your submarine at (17, 4)
+Player A missed!
+Player B missed!
+Player A hit your submarine at (9, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your submarine at (17, 3)
+Player A hit your battleship at (7, 9)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A used a special action
+targetCor is (17, 3)
+placementProblem != null
+placementProblem != null
+placementProblem != null
+Player B hit your battleship at (17, 1)
+Player A hit your battleship at (8, 8)
+Player B missed!
+Player A missed!
+Player B hit your battleship at (16, 5)
+Player A used a special action
+targetCor is (4, 8)
+Player B hit your battleship at (17, 0)
+Player A missed!
+Player B hit your battleship at (16, 0)
+Player A used a special action
+targetCor is (8, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (7, 8)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (15, 5)
+Player A missed!
+Player B hit your battleship at (15, 4)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (7, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (7, 3)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your battleship at (7, 7)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (7, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (14, 5)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (14, 3)
+Player A hit your destroyer at (6, 3)
+Player B missed!
+Player A hit your destroyer at (6, 1)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your destroyer at (6, 2)
+Player B missed!
+Player A missed!
+Player B hit your battleship at (13, 4)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (13, 3)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your battleship at (13, 2)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your destroyer at (12, 4)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your destroyer at (11, 4)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your submarine at (11, 6)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your submarine at (11, 5)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B hit your destroyer at (10, 4)
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (1, 3)
+Player B missed!
+Player A hit your submarine at (1, 1)
+Player B missed!
+Player A hit your carrier at (1, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (1, 2)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your carrier at (0, 5)
+Player B missed!
+Player A missed!
+Player B hit your carrier at (8, 3)
+Player A hit your carrier at (0, 6)
+Player B missed!
+Player A hit your carrier at (0, 4)
+Player B missed!
+Player A missed!
+Player B missed!
+Player A hit your submarine at (0, 1)
+Player A win!

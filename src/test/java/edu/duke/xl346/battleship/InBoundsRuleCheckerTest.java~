@@ -1,0 +1,29 @@
+package edu.duke.xl346.battleship;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+public class InBoundsRuleCheckerTest {
+  @Test
+  public void test_checkMyRule() {
+    V1ShipFactory f = new V1ShipFactory();
+    Placement v1_2 = new Placement(new Coordinate(1, 2), 'V');
+    Ship<Character> subm = f.makeSubmarine(v1_2);
+    PlacementRuleChecker<Character> rule = new InBoundsRuleChecker<Character>(null);
+    Board<Character> b1 = new BattleShipBoard<Character>(10, 20, rule);
+    
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+

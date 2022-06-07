@@ -1,0 +1,28 @@
+package edu.duke.xl346.battleship;
+
+public abstract class PlacementRuleChecker<T> {
+  private final PlacementRuleChecker<T> next;
+
+  public PlacementRuleChecker(PlacementRuleChecker<T> next){
+    this.next = next;
+  }
+
+  protected abstract boolean checkMyRule(Ship<T> theShip, Board<T> theBoard);
+
+  public boolean checkPlacement(Ship<T> theShip, Board<T> theBoard){
+    if(!)
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

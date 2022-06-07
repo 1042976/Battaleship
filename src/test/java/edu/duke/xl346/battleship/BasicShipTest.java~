@@ -1,0 +1,41 @@
+package edu.duke.xl346.battleship;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+
+public class BasicShipTest {
+  @Test
+  public void test_Constructors() {
+    RectangleShip<Character> s1 = new RectangleShip<Character>(new Coordinate(2, 2), 's', '*');
+    assertEquals(true, s1.occupiesCoordinates(new Coordinate(2, 2)));
+    assertEquals(false, s1.occupiesCoordinates(new Coordinate(3, 3)));
+    List<Coordinate> list = new ArrayList<Coordinate>(){
+      {
+        add(new Coordinate(2, 2));
+        add(new Coordinate(2, 3));
+        add(new Coordinate(1, 2));
+      }
+    };
+    RectangleShip<Character> s2 = new RectangleShip<Character>(list, 's', '*');
+    assertEquals(true, s2.occupiesCoordinates(new Coordinate(2, 2)));
+    assertEquals(true, s2.occupiesCoordinates(new Coordinate(2, 3)));
+    assertEquals(true, s2.occupiesCoordinates(new Coordinate(1, 2)));
+    assertEquals(false, s2.occupiesCoordinates(new Coordinate(2, 4)));
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
